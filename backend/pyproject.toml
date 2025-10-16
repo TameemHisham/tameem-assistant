@@ -9,4 +9,5 @@ dependencies = [
     "jwt>=1.4.0",
     "passlib[agron2]>=1.7.4",
     "sqlalchemy>=2.0.44",
+    "uvicorn>=0.37.0",
 ]

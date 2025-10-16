@@ -33,6 +33,7 @@ dependencies = [
     { name = "jwt" },
     { name = "passlib" },
     { name = "sqlalchemy" },
+    { name = "uvicorn" },
 ]
 
 [package.metadata]
@@ -41,6 +42,7 @@ requires-dist = [
     { name = "jwt", specifier = ">=1.4.0" },
     { name = "passlib", extras = ["agron2"], specifier = ">=1.7.4" },
     { name = "sqlalchemy", specifier = ">=2.0.44" },
+    { name = "uvicorn", specifier = ">=0.37.0" },
 ]
 
 [[package]]
